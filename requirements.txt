@@ -1,0 +1,5 @@
+# Direct dependencies. Resolve in a separate Python 3.11 environment per project.
+# Tested-library lower bounds are not a complete reproducibility/security lock.
+numpy>=2.4.6,<3
+pandas>=3.0.6,<4
+scipy>=1.17.1,<2
